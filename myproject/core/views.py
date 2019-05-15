@@ -11,11 +11,6 @@ def blank(request):
     return render(request, template_name)
 
 
-def dashboard(request):
-    template_name = 'dashboard.html'
-    return render(request, template_name)
-
-
 def email(request):
     template_name = 'email.html'
     return render(request, template_name)

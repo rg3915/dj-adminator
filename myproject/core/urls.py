@@ -8,7 +8,6 @@ app_name = 'core'
 urlpatterns = [
     path('', v.index, name='index'),
     path('blank/', v.blank, name='blank'),
-    path('dashboard/', v.dashboard, name='dashboard'),
     path('email/', v.email, name='email'),
     path('compose/', v.compose, name='compose'),
     path('calendar/', v.calendar, name='calendar'),

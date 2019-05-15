@@ -20,6 +20,12 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
+## I used
+
+https://github.com/puikinsh/Adminator-admin-dashboard/issues/58#issuecomment-366796696
+
+to convert SCSS to CSS.
+
 ## TODO
 
 * Fix js

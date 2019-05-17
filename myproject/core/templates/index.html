@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 {% block title %}Dashboard{% endblock title %}
-{% block content %}
+{% block loader %}
+<div id='loader'>
+  <div class="spinner"></div>
+</div>
+<script src="{% static 'js/load.js' %}"></script>
+{% endblock loader %}{% block content %}
 <div class="row gap-20 masonry pos-r">
   <div class="masonry-sizer col-md-6"></div>
   <div class="masonry-item  w-100">

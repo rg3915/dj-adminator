@@ -27,10 +27,12 @@
     -->
   <!-- @Page Loader -->
   <!-- =================================================== -->
-  <div id='loader'>
-    <div class="spinner"></div>
-  </div>
-  <script src="{% static 'js/load.js' %}"></script>
+  {% block loader %}
+  <!-- <div id='loader'>
+      <div class="spinner"></div>
+    </div>
+    <script src="{% static 'js/load.js' %}"></script> -->
+  {% endblock loader %}
   <!-- @App Content -->
   <!-- =================================================== -->
   <div>
